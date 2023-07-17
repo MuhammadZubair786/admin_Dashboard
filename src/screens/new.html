@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const reactMCQs = [
+  {
+    "Quiz": "What is React?",
+    "Options": [
+      "A JavaScript framework",
+      "A programming language",
+      "A server-side technology",
+      "A front-end library"
+    ],
+    "Correct_ans": "A front-end library"
+  },
+  {
+    "Quiz": "What is JSX?",
+    "Options": [
+      "JavaScript Syntax Extension",
+      "Java Syntax Extension",
+      "XML Syntax Extension",
+      "JS Syntax Extension"
+    ],
+    "Correct_ans": "XML Syntax Extension"
+  },
+  {
+    "Quiz": "What is the virtual DOM?",
+    "Options": [
+      "A representation of the browser DOM",
+      "A separate thread for handling DOM updates",
+      "A lightweight version of the DOM",
+      "A technique for handling AJAX requests"
+    ],
+    "Correct_ans": "A representation of the browser DOM"
+  },
+  {
+    "Quiz": "What is a React component?",
+    "Options": [
+      "A function that returns JSX",
+      "A class that extends the React Component class",
+      "An HTML element rendered by React",
+      "A CSS style defined within a React app"
+    ],
+    "Correct_ans": "A function that returns JSX"
+  },
+  {
+    "Quiz": "What is state in React?",
+    "Options": [
+      "A JavaScript keyword",
+      "A way to store data within a component",
+      "A component lifecycle method",
+      "A CSS property"
+    ],
+    "Correct_ans": "A way to store data within a component"
+  },
+{
+    "Quiz": "What is the render() method used for in React?",
+    "Options": [
+      "To define the component structure and behavior",
+      "To update the component state",
+      "To handle events and user interactions",
+      "To render JSX and HTML markup"
+    ],
+    "Correct_ans": "To render JSX and HTML markup"
+  },
+ {
+    "Quiz": "What is the purpose of Redux in a React application?",
+    "Options": [
+      "To manage the state of React components",
+      "To provide a routing mechanism in React applications",
+      "To handle network requests in React applications",
+      "To create responsive layouts in React applications"
+    ],
+    "Correct_ans": "To manage the state of React components"
+  },
+ {
+    "Quiz": "What is the purpose of React Router?",
+    "Options": [
+      "To handle network requests in React applications",
+      "To manage the state of React components",
+      "To provide a routing mechanism in React applications",
+      "To create responsive layouts in React applications"
+    ],
+    "Correct_ans": "To provide a routing mechanism in React applications"
+  },
+  {
+    Quiz: "What is React Bootstrap?",
+    Options: [
+      "A UI component library that integrates Bootstrap with React",
+      "A front-end framework for building responsive web applications",
+      "A server-side rendering solution for React applications",
+      "A styling library for customizing React components"
+    ],
+    Correct_ans: "A UI component library that integrates Bootstrap with React"
+  },
+  {
+    Quiz: "Does React Bootstrap support customizing component styles?",
+    Options: [
+      "Yes, React Bootstrap provides Options for customizing component styles",
+      "No, React Bootstrap components must be used as-is without customization",
+      "Customization is only possible by modifying the underlying Bootstrap CSS files",
+      "React Bootstrap does not support any form of style customization"
+    ],
+    Correct_ans: "Yes, React Bootstrap provides Options for customizing component styles"
+  },
+  {
+    Quiz: "Can you customize the size and color of React Icons?",
+    Options: [
+      "Yes, React Icons provide props for adjusting size and color",
+      "No, React Icons are designed to be used as-is without customization",
+      "Customization is only possible by modifying the underlying SVG code",
+      "React Icons do not support size and color customization"
+    ],
+    Correct_ans: "Yes, React Icons provide props for adjusting size and color"
+  },
+
+{
+    "Quiz": "What is the difference between state and props in React?",
+    "Options": [
+      "State is immutable, while props are mutable",
+      "State is used for communication between components, while props are used for components internal state",
+      "State is local and internal to a component, while props are passed from parent to child components",
+      "State is defined in class components, while props are defined in functional components"
+    ],
+    "Correct_ans": "State is local and internal to a component, while props are passed from parent to child components"
+  },
+ {
+    "Quiz": "What happens when state or props are updated in a React component?",
+    "Options": [
+      "The component is re-rendered with the updated values",
+      "The component is unmounted and re-mounted again",
+      "The component triggers a server request",
+      "The component remains unaffected"
+    ],
+    "Correct_ans": "The component is re-rendered with the updated values"
+  },
+ {
+    "Quiz": "How can you update the state of a React component in Class Based Componnets?",
+    "Options": [
+      "By directly modifying the state object",
+      "By calling this.setState() with the updated state",
+      "By assigning a new value to this.state",
+      "By passing props from parent component"
+    ],
+    "Correct_ans": "By calling this.setState() with the updated state"
+  },
+ {
+    "Quiz": "Can you update props directly in a child component?",
+    "Options": [
+      "Yes, props can be updated directly in any component",
+      "No, props are immutable and cannot be directly updated in a child component",
+      "Props can only be updated in functional components",
+      "Props can only be updated in class components"
+    ],
+    "Correct_ans": "No, props are immutable and cannot be directly updated in a child component"
+  },
+ {
+    "Quiz": "What is React Router?",
+    "Options": [
+      "A library for managing state in React components",
+      "A built-in routing feature in React",
+      "A library for handling network requests in React",
+      "A routing library for building single-page applications in React"
+    ],
+    "Correct_ans": "A routing library for building single-page applications in React"
+  },
+{
+    "Quiz": "Which component is used to define routes in React Router?",
+    "Options": [
+      "BrowserRouter",
+      "Route",
+      "Link",
+      "Switch"
+    ],
+    "Correct_ans": "Route"
+  },
+ {
+    "Quiz": "What is the purpose of the Link component in React Router?",
+    "Options": [
+      "To handle form submissions in React components",
+      "To define the structure and behavior of the application layout",
+      "To navigate between different routes in a React application",
+      "To handle state management in React components"
+    ],
+    "Correct_ans": "To navigate between different routes in a React application"
+  },
+ {
+    "Quiz": "Which hook is used to access routing information in React Router 6?",
+    "Options": [
+      "useHistory",
+      "useParams",
+      "useLocation",
+      "useRoute"
+    ],
+    "Correct_ans": "useLocation"
+  },
+ {
+    "Quiz": "What is the purpose of the `<Navigate>` component in React Router 6?",
+    "Options": [
+      "To define the structure and behavior of the application layout",
+      "To handle navigation programmatically",
+      "To handle redirects to other routes",
+      "To fetch data from an API in React components"
+    ],
+    "Correct_ans": "To handle navigation programmatically"
+  },
+{
+    "Quiz": "What is the new syntax for defining routes in React Router 6?",
+    "Options": [
+      "`<Route>` component with a `path` prop",
+      "`<Switch>` component with nested `<Route>` components",
+      "`<Routes>` component with nested `<Route>` elements",
+      "`<Link>` component with a `to` prop"
+    ],
+    "Correct_ans": "`<Routes>` component with nested `<Route>` elements"
+  },
+ {
+    "Quiz": "What is the purpose of the `useParams` hook in React Router 6?",
+    "Options": [
+      "To handle form submissions in React components",
+      "To define the structure and behavior of the application layout",
+      "To access parameters from the URL in the current route",
+      "To handle state management in React components"
+    ],
+    "Correct_ans": "To access parameters from the URL in the current route"
+  },
+  {
+    Quiz: "How can you use React Icons in your React components?",
+    Options: [
+      "By importing the specific icon component from the React Icons library",
+      "By directly embedding SVG code for the desired icon in the component",
+      "By using a third-party package manager to install and manage React Icons",
+      "React Icons cannot be used in React components"
+    ],
+    Correct_ans: "By importing the specific icon component from the React Icons library"
+  },
+ {
+    "Quiz": "How can you navigate to a different route programmatically in React Router 6?",
+    "Options": [
+      "Using the `<Link>` component with a `to` prop",
+      "Using the `useHistory` hook and calling its `push` method",
+      "Using the `<Navigate>` component with a `to` prop",
+      "Using the `useNavigate` hook and calling it with the desired route path"
+    ],
+    "Correct_ans": "Using the `useNavigate` hook and calling it with the desired route path"
+  },
+ {
+    "Quiz": "What is the purpose of the `useLocation` hook in React Router 6?",
+    "Options": [
+      "To handle form submissions in React components",
+      "To define the structure and behavior of the application layout",
+      "To access the current URL location and its properties",
+      "To handle state management in React components"
+    ],
+    "Correct_ans": "To access the current URL location and its properties"
+  },
+{
+    "Quiz": "How can you render a 404 Not Found page in React Router 6 for unmatched routes?",
+    "Options": [
+      "Using the `<Route>` component with a `path="*"`",
+      "Using the `<Switch>` component with a default `<Route>`",
+      "Using the `<NotFound>` component provided by React Router",
+      "Using the `<Redirect>` component with a `from` prop"
+    ],
+    "Correct_ans": "Using the `<Route>` component with a `path="*"`"
+  },
+ {
+    "Quiz": "Which statement is true about state in React?",
+    "Options": [
+      "State is mutable and can be directly modified",
+      "State is immutable and cannot be directly modified",
+      "State can only be accessed within functional components",
+      "State is specific to class components only"
+    ],
+    "Correct_ans": "State is mutable and can be directly modified"
+  },
+{
+    "Quiz": "In which direction does data flow in React?",
+    "Options": [
+      "From child components to parent components",
+      "From parent components to child components",
+      "Bidirectionally between components",
+      "Data flow is not a concept in React"
+    ],
+    "Correct_ans": "From parent components to child components"
+  },
+ {
+    "Quiz": "Can function components have state in React?",
+    "Options": [
+      "Yes, function components can have state using the `useState` hook",
+      "No, function components cannot have state",
+      "Function components can only have props, not state",
+      "Function components must be converted to class components to have state"
+    ],
+    "Correct_ans": "Yes, function components can have state using the `useState` hook"
+  },
+{
+    "Quiz": "What is the second argument of the useEffect hook?",
+    "Options": [
+      "The callback function to be executed after the side effect",
+      "The array of dependencies for the useEffect hook",
+      "The number of times the effect should run",
+      "The state variable to track within the effect"
+    ],
+    "Correct_ans": "The array of dependencies for the useEffect hook"
+  },
+{
+    "Quiz": "What problem does Redux solve?",
+    "Options": [
+      "Handling form submissions in web applications",
+      "Managing component state in React",
+      "Simplifying API calls in JavaScript applications",
+      "Managing complex application state and data flow"
+    ],
+    "Correct_ans": "Managing complex application state and data flow"
+  },
+ {
+    "Quiz": "What are the core principles of Redux?",
+    "Options": [
+      "State, Actions, and Reducers",
+      "Components, Containers, and Middleware",
+      "Store, Actions, and Reducers,Middleware",
+      "Actions, Reducers, and Middleware"
+    ],
+    "Correct_ans": "Store, Actions, and Reducers,Middleware"
+  },
+ {
+    "Quiz": "Which component is responsible for changing the state in Redux?",
+    "Options": [
+      "Reducers",
+      "Actions",
+      "Store",
+      "Selectors"
+    ],
+    "Correct_ans": "Reducers"
+  },
+  {
+    "Quiz": "What is the purpose of middleware in Redux?",
+    "Options": [
+      "To handle asynchronous actions and side effects",
+      "To manage component state",
+      "To define the structure of the Redux store",
+      "To handle routing in a Redux application"
+    ],
+    "Correct_ans": "To handle asynchronous actions and side effects"
+  },
+{
+    "Quiz": "What is React Bootstrap?",
+    "Options": [
+      "A styling framework for React applications",
+      "A state management library for React applications",
+      "A testing framework for React components",
+      "A routing library for React applications"
+    ],
+    "Correct_ans": "A styling framework for React applications"
+  },
+{
+    "Quiz": "What is the benefit of using React Bootstrap in a project?",
+    "Options": [
+      "It provides consistent and responsive styling",
+      "It simplifies the component hierarchy in React",
+      "It enables server-side rendering in React applications",
+      "It improves the performance of React applications"
+    ],
+    "Correct_ans": "It provides consistent and responsive styling"
+  },
+ {
+    "Quiz": "What popular icon libraries are commonly used with React Icons?",
+    "Options": [
+      "Font Awesome, Material Icons, and Ionicons",
+      "Bootstrap Icons, Feather Icons, and Line Awesome",
+      "Ant Design Icons, Heroicons, and Remix Icon",
+      "All of the above"
+    ],
+    "Correct_ans": "All of the above"
+  },
+{
+    "Quiz": "What problem does Formik solve?",
+    "Options": [
+      "Managing component state in React",
+      "Handling form validations in React",
+      "Simplifying API calls in React applications",
+      "Managing complex application state and data flow"
+    ],
+    "Correct_ans": "Handling form validations in React"
+  },
+ {
+    "Quiz": "What is the purpose of initialValues in Formik?",
+    "Options": [
+      "To define the initial state of the form fields",
+      "To specify the validation schema for the form",
+      "To handle form submission and API calls",
+      "To control the forms submission behavior"
+    ],
+    "Correct_ans": "To define the initial state of the form fields"
+  },
+  {
+    Quiz: "How can you handle form submission in Formik?",
+    Options: [
+      "By using the onSubmit handler provided by Formik",
+      "By directly accessing the form data using refs",
+      "By defining a separate submit function outside of Formik",
+      "Formik does not provide a built-in way to handle form submission"
+    ],
+    Correct_ans: "By using the onSubmit handler provided by Formik"
+  },
+  {
+    Quiz: "What is Yup in the context of Formik?",
+    Options: [
+      "A separate form validation library commonly used with Formik",
+      "A built-in form validation solution provided by Formik",
+      "A form rendering library specifically designed for Formik",
+      "Yup is not related to Formik"
+    ],
+    Correct_ans: "A separate form validation library commonly used with Formik"
+  },
+  {
+    Quiz: "Can you use Formik with server-side rendering (SSR)?",
+    Options: [
+      "Yes, Formik has built-in support for server-side rendering",
+      "No, Formik is not compatible with server-side rendering",
+      "Formik requires additional configuration for server-side rendering",
+      "Server-side rendering has no impact on Formik usage"
+    ],
+    Correct_ans: "Yes, Formik has built-in support for server-side rendering"
+  },
+  {
+    Quiz: "What are lifecycle methods in React?",
+    Options: [
+      "Methods used to manage component rendering and updates",
+      "Methods used to handle form validations",
+      "Methods used to handle user interactions",
+      "Methods used to define the structure of the component\"s JSX markup"
+    ],
+    Correct_ans: "Methods used to manage component rendering and updates"
+  },
+  {
+    Quiz: "What is the purpose of the parameter passed to useState?",
+    Options: [
+      "To initialize the state with a default value",
+      "To specify the type of the state variable",
+      "To define the state update logic",
+      "The parameter is optional and not required for useState"
+    ],
+    Correct_ans: "To initialize the state with a default value"
+  },
+  {
+    Quiz: "How can you update the state using useState?",
+    Options: [
+      "By directly modifying the state variable",
+      "By calling the useState function with a new value",
+      "By calling the setState function returned by useState",
+      "State updates are not possible with useState"
+    ],
+    Correct_ans: "By calling the setState function returned by useState"
+  },
+  {
+    Quiz: "Can you have multiple state variables with the same name in a single component?",
+    Options: [
+      "Yes, useState automatically manages separate instances of state variables",
+      "No, each state variable in a component must have a unique name",
+      "It depends on the version of React being used",
+      "Duplicate state variable names are not allowed in React components"
+    ],
+    Correct_ans: "No, each state variable in a component must have a unique name"
+  },
+  {
+    Quiz: "What are the three principles of Redux?",
+    Options: [
+      "Single source of truth, State is read-only, Changes are made with pure functions",
+      "Component-based architecture, Virtual DOM, Declarative syntax",
+      "Immutable data, Asynchronous actions, Middleware composition",
+      "MVC architecture, Two-way data binding, Dependency injection"
+    ],
+    Correct_ans: "Single source of truth, State is read-only, Changes are made with pure functions"
+  },
+  {
+    Quiz: "What is an action in Redux?",
+    Options: [
+      "An object that describes a change in the application state",
+      "A function that modifies the application state directly",
+      "A callback function triggered by user interactions",
+      "A component responsible for rendering the UI"
+    ],
+    Correct_ans: "An object that describes a change in the application state"
+  },
+  {
+    Quiz: "What is a reducer in Redux?",
+    Options: [
+      "A pure function that calculates the next state based on the current state and an action",
+      "A middleware function that intercepts and modifies actions before they reach the reducers",
+      "A higher-order component used for connecting Redux with React components",
+      "A utility function for creating action creators in Redux"
+    ],
+    Correct_ans: "A pure function that calculates the next state based on the current state and an action"
+  },
+  {
+    Quiz: "What is the purpose of middleware in Redux?",
+    Options: [
+      "To intercept and modify actions before they reach the reducers",
+      "To handle asynchronous operations in Redux",
+      "To connect Redux with React components",
+      "Middleware is not used in Redux"
+    ],
+    Correct_ans: "To intercept and modify actions before they reach the reducers"
+  }
+
+];
+
+
+console.log(reactMCQs.length)
+
+
+    </script>
+</body>
+</html>

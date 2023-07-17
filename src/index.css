@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+font-family: 'SF-Pro-Display-Regular';
+src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+font-family: 'SF-Pro-Display-Semibold';
+src: url(./assets/fonts/SF-Pro-Display-Semibold.otf);
+}
+@layer base {
+    :root {
+      --background: #fff;
+      --btntxtclr:#fff;
+      --btnclr:#1B344F;
+      --cardColor:#F0F0F0;
+      --mainTextColor:#1A1D25;
+    }
+  }
+.theme-light {
+    --background: #fff;
+    --btnclr:#1B344F;
+    --btntxtclr:#fff;
+    --cardColor:#F0F0F0;
+    --mainTextColor:#1A1D25;
+}
+.theme-dark {
+    --background: #292929;
+    --btntxtclr:black;
+    --btnclr:#ffffff;
+    --cardColor:#3e3e3e;
+    --mainTextColor:white;
+  }
