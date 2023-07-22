@@ -116,12 +116,15 @@ const Dashboard = () => {
     // car
   },[])
 
+  //edit function 
   const editbtnfunc =(val)=>{
     console.log(val)
     setcurrentdata(val)
     seteditbtn(true)
 
   }
+
+  //update function
 
   const updatedata = async ()=>{
     console.log(currentdata)
@@ -142,6 +145,8 @@ const Dashboard = () => {
 
   }
 
+
+  //get database again 
  const getdata= ()=>{
     const db_ref= ref(database,"subcat")
     get(db_ref).then((snap)=>{
