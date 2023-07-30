@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { storage, db } from '../Config/firebase'
 import { ref, push, set, get, remove } from 'firebase/database'
 import { ref as Sref, uploadBytes, getDownloadURL } from 'firebase/storage'
+import { Link, useNavigate } from 'react-router-dom';
+import Card1 from './TestCard';
 
 function Category() {
 
@@ -16,6 +18,10 @@ function Category() {
   let [input, setinput] = useState("")
 
   let [editdata, seteditdata] = useState()
+
+  let navigate = useNavigate()
+
+
 
 
   useEffect(() => {
@@ -33,6 +39,14 @@ function Category() {
     })
 
   }, [])
+
+  const goproduct=(v,i)=>{
+    // navigate(`/Card/${v.key}`)
+  
+   
+    console.log("test")
+
+  }
 
   const editdatafunc=async()=>{
     let db_ref = ref(db, `Main_Cat/${editdata.key}`)
@@ -280,7 +294,9 @@ function Category() {
           {
             product.map((v, i) => {
               return (
-                <tr key={i}>
+                  // <Link to={`/Card/${i}`}>
+                <tr key={i} onClick={()=>goproduct(v,i)}>
+                
                   <td>{i + 1}</td>
                   <td>{v.name}</td>
                   <td>
@@ -299,6 +315,7 @@ function Category() {
                     <button class="btn btn-danger" onClick={() => deleteitem(v.key)}>Delete</button>
 
                   </td>
+                  {/* </Link> */}
 
                 </tr>
               )
@@ -309,6 +326,7 @@ function Category() {
 
         </tbody>
       </Table>
+
 
     </div>
   )

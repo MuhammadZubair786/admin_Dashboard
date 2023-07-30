@@ -4,6 +4,7 @@ import './App.css'
 import { useNavigate } from 'react-router-dom'
 
 import { Link } from 'react-router-dom'
+import Card from './Compunets/TestCard'
 function App() {
   const nav = useNavigate()
   const next1 = () => {
@@ -19,7 +20,7 @@ function App() {
   }
 
   const next4 = () => {
-    nav('/Return')
+    nav('/Card')
   }
 
   return (
@@ -31,11 +32,15 @@ function App() {
             <li > <button onClick={() => next1()}   >Dashbord</button>  </li>
             <li ><button onClick={() => next2()}  >Category</button> </li>
             <li ><button onClick={() => next3()}  >Oders</button> </li>
+            {/* <li ><button onClick={() => next4()}  >Card</button> </li> */}
+
             {/* <li ><button onClick={()=>next4()}  >Add Items</button> </li> */}
           </ul>
         </div>
       </div>
       <Navegation />
+
+      {/* <Card/> */}
 
     </>
   )

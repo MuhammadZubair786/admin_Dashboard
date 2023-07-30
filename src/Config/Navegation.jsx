@@ -4,6 +4,9 @@ import Dasbord from '../Compunets/Dasbord'
 import Category from '../Compunets/Category'
 import Oders from '../Compunets/Oders'
 import RetuenItms from '../Compunets/RetuenItms'
+import Card1 from '../Compunets/TestCard'
+
+
 
 function Navegation() {
   return (
@@ -12,6 +15,7 @@ function Navegation() {
         <Route path='/' element={<Dasbord/>}></Route>
         <Route path='/Category' element={<Category/>}></Route>
         <Route path='/Oders' element={<Oders/>}></Route>
+        <Route path='/Card/:id' element={<Card1/>}></Route>
         {/* <Route path='/Return' element={<RetuenItms/>}></Route> */}
 
 
